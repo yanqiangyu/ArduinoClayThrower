@@ -8,7 +8,7 @@
 ## Features
  - RF controlled throwing arm (Button A) and wabbler (Button B)
  - Standalone voice controll board controls RF relays
- - Use stateful command sequence to improve control of throwing arm
+ - Use context sensitive command sequence to improve control of throwing arm
  - Random continous throwing and random delay to add variation
 
 ## Voice Command Phrases
