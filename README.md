@@ -1,13 +1,13 @@
 # ArduinoClayThrower
 ## Voice remote controlled claythrower with Arduino
 
-## A project to control my Champion Clay Thrower with Arduino, voice control and RF remote.
+## Programmerable Voice Remote for Champion Clay Thrower
 Component list
 
 ## Features
  - RF Controlled wabbler and throwing arm
  - Stand alone voice controlled board controls RF relays
- - Random throwing and delay implemented with Arduino Nano controller
+ - Random continous throwing and random delay implemented with Arduino Nano controller
 
 ## Components
  - 2 x eMylo RF Control (1 for throwing arm, 1 for wabbler)
