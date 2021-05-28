@@ -2,7 +2,7 @@
 ## Voice remote controlled claythrower with Arduino
 
 ## Programmerable Voice Remote for Champion Clay Thrower
-Component list
+![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/animation.gif?raw=true)
 
 ## Features
  - RF Controlled wabbler and throwing arm
@@ -12,10 +12,8 @@ Component list
 ## Components
  - 2 x eMylo RF Control (1 for throwing arm, 1 for wabbler)
  - 2 x 5V 1 channel relay module
- - 1 x Arduino Nano compatible
- - 1 x geeetech voice control board (http://www.geeetech.com)
+ - 1 x Arduino Nano Compatible Controller
+ - 1 x geeetech.com voice control board (http://www.geeetech.com)
 
-
-![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/animation.gif?raw=true)
 ![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/packaging.jpg?raw=true)
 ![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/breadboard.jpg?raw=true)
