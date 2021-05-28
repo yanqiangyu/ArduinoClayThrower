@@ -71,6 +71,9 @@ void execute (int c){
         if (stateReady == 2) {
           randomStart ();
         }
+        else if (stateReady == 0) {
+          wabble (1);
+        }
         else {
             Serial.println ("ignored");
         }
@@ -86,14 +89,24 @@ void execute (int c){
 void idle () {
   stateReady = 0;
   throwStart = 0;
+  wabble (0);
 }
 
-void randomStart () {
-    Serial.println (wabbling == 0 ? "Start wabbling" : "Stop wabbling");
+void wabble (int start) {
+  if (start != wabbling)
+    toggleWabbler ();
+}
+
+void toggleWabbler () {
+    Serial.println (wabbling == 0 ? "Start wabbling" : "Stop wabbling");   
     wabbling = 1 - wabbling;
     digitalWrite(wabblePin, HIGH);
     delay(200);
     digitalWrite(wabblePin, LOW);
+}
+
+void randomStart () {
+    wabble (1);
     randomClay = random (1, 7);
     Serial.println ("Throwing " + String(randomClay) + " clays");
     delay(200);
