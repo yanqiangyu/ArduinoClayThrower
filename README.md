@@ -15,5 +15,13 @@
  - 1 x Arduino Nano Compatible Controller
  - 1 x geeetech.com voice control board (http://www.geeetech.com)
 
-![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/packaging.jpg?raw=true)
+## Steps
+
+### Prototype components on breadboard
 ![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/breadboard.jpg?raw=true)
+
+### Assemble PCB and Enclosure
+![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/packaging.jpg?raw=true)
+
+### Finished Unit
+![demo](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/unit.png?raw=true)
