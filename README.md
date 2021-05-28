@@ -2,6 +2,7 @@
 ## Voice remote controlled claythrower with Arduino
 
 ## Programmerable Voice Remote for Champion Clay Thrower
+### Click for demo videos
 [![click](https://github.com/yanqiangyu/ArduinoClayThrower/blob/main/animation.gif?raw=true)](https://youtu.be/K57nfWaYino)
 
 ## Features
